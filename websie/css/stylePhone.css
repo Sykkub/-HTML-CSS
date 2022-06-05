@@ -1,0 +1,9 @@
+@media screen and (max-width: 335px) {
+    header {
+        height: 376px;
+        padding-top: 16px;
+    }
+.copy {
+        margin-top: 32px;
+    }
+}
