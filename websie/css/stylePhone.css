@@ -1,8 +1,70 @@
-@media screen and (max-width: 335px) {
-    header {
-        height: 376px;
-        padding-top: 16px;
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 704px;
+        margin: 0 auto;
     }
+    header {
+        /* height: 376px; */
+        top: 47px;
+    }
+    /* шапка с книгой и логм */
+
+
+    /* нижния часть шапки с  людми*/
+header h1{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+}
+    /* кнопка шапки */
+
+    /*3 табличики с людми*/
+
+
+    /* 3 картинки серидины*/
+
+
+    /*Подвал*/
+    footer .container{
+        padding: 64px 92px;
+        width: 704px;
+        /* mar */
+        /* box-sizing: border-box; */
+    }
+    footer p{
+        margin: 37px;
+        /* opacity: 0.6; */
+        width: 336px;
+    }
+    footer h3{
+        margin: -16px 37px;
+    }
+    footer button{
+        width: 134px;
+        height: 32px;
+        margin-top: -115px;
+    }
+    /* footer ol{
+        flex-direction: column;
+        height: 130px;
+    }
+    footer il{
+        flex-basis: 26px;
+    }
+    footer il{
+        display: none;
+    } */
+    footer ol{
+        display: block;
+    }
+    footer li+li{
+        margin-top: 26px;
+    }
+    footer li br{
+        display: none;
+    }
+    /* подпись */
 .copy {
         margin-top: 32px;
     }
